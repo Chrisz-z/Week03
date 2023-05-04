@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         tbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                etInput.
+
             }
         });
 
