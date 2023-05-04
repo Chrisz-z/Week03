@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Week03</string>
+    <string name="Enter">Enter Something</string>
+    <string name="Ln2">Display what the user enters</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
+</resources>
