@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -30,6 +31,26 @@
             android:layout_height="wrap_content"
             android:hint="@string/Ln2"/>
 
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioGroupGenderMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioGroupGenderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female"/>
+    </RadioGroup>
+
+
     <ToggleButton
         android:id="@+id/toggleButtonEnabled"
         android:layout_width="match_parent"
@@ -37,6 +58,7 @@
         android:checked="true"
         android:textOff="@string/disabled"
         android:textOn="@string/enabled" />
+
 
 
 </LinearLayout>
