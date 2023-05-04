@@ -37,14 +37,14 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioGroupGenderMale"
+            android:id="@+id/radioButtonGenderMale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/male"
             android:textSize="14sp" />
 
         <RadioButton
-            android:id="@+id/radioGroupGenderFemale"
+            android:id="@+id/radioButtonGenderFemale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/female"/>
